@@ -1,0 +1,15 @@
+services:
+    - name: NetworkManager
+      type: systemd
+    - name: sshd
+      type: systemd
+    - name: test-service
+      type: systemd
+    - name: another-test-service
+      type: systemd
+    - name: mts-mock-service
+      type: systemd
+    - name: mts-e2e-service
+      type: systemd
+    - name: mts-file-service
+      type: systemd

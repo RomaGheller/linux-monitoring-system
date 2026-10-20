@@ -1,0 +1,44 @@
+# Compiled binaries and build output
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage/
+coverage.out
+*.coverprofile
+
+# Local state and logs
+*.log
+*.pid
+*.sock
+*.socket
+/tmp/
+
+# Local credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Keep source, Go module files, documentation, tests,
+# and the sample services.yaml tracked.
